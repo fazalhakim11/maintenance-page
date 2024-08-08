@@ -1,0 +1,32 @@
+body {
+    font-family: "Poppins", "sans-serif";
+}
+
+.container {
+    display: flex; 
+    justify-content: center
+}
+
+.text {
+    align-self: center
+}
+
+img {
+    width: 500px;
+}
+
+@media (max-width: 575.98px) { 
+    .container {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    img {
+        width: 300px;
+    }
+}
